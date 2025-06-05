@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 30 10% 98%; /* #F5F4F1 */
+  --foreground: 30 10% 15%; /* #3C2A21 */
+  --muted: 30 8% 95%; /* #F0EDE8 */
+  --muted-foreground: 30 8% 45%; /* #8B7355 */
+  --popover: 0 0% 100%; /* #FFFFFF */
+  --popover-foreground: 30 10% 15%; /* #3C2A21 */
+  --card: 0 0% 100%; /* #FFFFFF */
+  --card-foreground: 30 10% 15%; /* #3C2A21 */
+  --border: 30 8% 90%; /* #E5E0D8 */
+  --input: 30 8% 90%; /* #E5E0D8 */
+  --primary: 30 100% 60%; /* #FF9933 - Saffron */
+  --primary-foreground: 0 0% 100%; /* #FFFFFF */
+  --secondary: 30 8% 95%; /* #F0EDE8 */
+  --secondary-foreground: 30 10% 15%; /* #3C2A21 */
+  --accent: 30 8% 95%; /* #F0EDE8 */
+  --accent-foreground: 30 10% 15%; /* #3C2A21 */
+  --destructive: 0 84% 60%; /* #F56565 */
+  --destructive-foreground: 0 0% 100%; /* #FFFFFF */
+  --ring: 30 100% 60%; /* #FF9933 */
+  --radius: 0.5rem;
+  
+  /* Custom colors for restaurant theme */
+  --saffron: 30 100% 60%; /* #FF9933 */
+  --curry: 14 80% 45%; /* #C73E1D */
+  --turmeric: 40 85% 65%; /* #F4A261 */
+  --gold: 50 75% 55%; /* #D4AF37 */
+  --warm-gray: 30 20% 50%; /* #8B7355 */
+  --deep-brown: 30 25% 20%; /* #3C2A21 */
+}
+
+.dark {
+  --background: 30 25% 8%; /* #1F1611 */
+  --foreground: 30 10% 95%; /* #F0EDE8 */
+  --muted: 30 20% 15%; /* #2D211A */
+  --muted-foreground: 30 8% 65%; /* #A89A85 */
+  --popover: 30 25% 8%; /* #1F1611 */
+  --popover-foreground: 30 10% 95%; /* #F0EDE8 */
+  --card: 30 25% 8%; /* #1F1611 */
+  --card-foreground: 30 10% 95%; /* #F0EDE8 */
+  --border: 30 20% 20%; /* #3D2E23 */
+  --input: 30 20% 20%; /* #3D2E23 */
+  --primary: 30 100% 60%; /* #FF9933 */
+  --primary-foreground: 30 25% 8%; /* #1F1611 */
+  --secondary: 30 20% 15%; /* #2D211A */
+  --secondary-foreground: 30 10% 95%; /* #F0EDE8 */
+  --accent: 30 20% 15%; /* #2D211A */
+  --accent-foreground: 30 10% 95%; /* #F0EDE8 */
+  --destructive: 0 62% 31%; /* #7F1D1D */
+  --destructive-foreground: 30 10% 95%; /* #F0EDE8 */
+  --ring: 30 100% 60%; /* #FF9933 */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .text-saffron {
+    color: hsl(var(--saffron));
+  }
+
+  .bg-saffron {
+    background-color: hsl(var(--saffron));
+  }
+
+  .hover\:bg-saffron:hover {
+    background-color: hsl(var(--saffron));
+  }
+
+  .text-curry {
+    color: hsl(var(--curry));
+  }
+
+  .bg-curry {
+    background-color: hsl(var(--curry));
+  }
+
+  .hover\:bg-curry:hover {
+    background-color: hsl(var(--curry));
+  }
+
+  .text-turmeric {
+    color: hsl(var(--turmeric));
+  }
+
+  .bg-turmeric {
+    background-color: hsl(var(--turmeric));
+  }
+
+  .text-warm-gray {
+    color: hsl(var(--warm-gray));
+  }
+
+  .bg-warm-gray {
+    background-color: hsl(var(--warm-gray));
+  }
+
+  .text-deep-brown {
+    color: hsl(var(--deep-brown));
+  }
+
+  .bg-deep-brown {
+    background-color: hsl(var(--deep-brown));
+  }
+
+  .border-saffron {
+    border-color: hsl(var(--saffron));
+  }
+
+  .focus\:ring-saffron:focus {
+    --tw-ring-color: hsl(var(--saffron));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
