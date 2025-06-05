@@ -12,7 +12,7 @@ export function About() {
             About Spice Thali
           </h1>
           <p className="text-xl text-warm-gray dark:text-gray-300 max-w-3xl mx-auto">
-            Our journey of bringing authentic Indian flavors to your table
+            Uniting Flavors from Chennai to Chandni Chowk - Our journey of bringing authentic Indian flavors to your table
           </p>
         </div>
 

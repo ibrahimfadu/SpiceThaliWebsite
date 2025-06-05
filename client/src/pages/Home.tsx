@@ -20,7 +20,7 @@ export function Home() {
             Welcome to Spice Thali
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            Authentic flavors from North & South India, crafted with tradition and served with love
+            Uniting Flavors from Chennai to Chandni Chowk - Authentic Indian cuisine crafted with tradition
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/menu">

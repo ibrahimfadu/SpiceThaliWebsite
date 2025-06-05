@@ -36,7 +36,7 @@ export function Navigation() {
               </h1>
             </Link>
             <span className="ml-2 text-warm-gray text-sm hidden sm:inline">
-              Authentic Indian Cuisine
+              Uniting Flavors from Chennai to Chandni Chowk
             </span>
           </div>
 

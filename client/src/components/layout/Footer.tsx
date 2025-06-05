@@ -12,7 +12,7 @@ export function Footer() {
               Spice Thali
             </h3>
             <p className="text-gray-300 mb-4">
-              Authentic Indian cuisine bringing you the finest flavors from North and South India.
+              Uniting Flavors from Chennai to Chandni Chowk - Authentic North & South Indian cuisine.
             </p>
             <div className="flex space-x-4">
               <a
@@ -81,7 +81,7 @@ export function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center">
                 <span className="mr-2">📍</span>
-                123 Spice Street, Mumbai
+                No. 21, Food Street, Indiranagar, Bengaluru, Karnataka – 560038
               </li>
               <li className="flex items-center">
                 <span className="mr-2">📞</span>
@@ -89,7 +89,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <span className="mr-2">✉️</span>
-                info@spicethali.com
+                contact@spicethali.in
               </li>
             </ul>
           </div>
@@ -98,9 +98,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4">Opening Hours</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Mon-Thu: 11AM - 10PM</li>
-              <li>Fri-Sat: 11AM - 11PM</li>
-              <li>Sunday: 12PM - 9PM</li>
+              <li>Mon-Fri: 11:00 AM - 10:30 PM</li>
+              <li>Sat-Sun: 9:00 AM - 11:00 PM</li>
             </ul>
           </div>
         </div>

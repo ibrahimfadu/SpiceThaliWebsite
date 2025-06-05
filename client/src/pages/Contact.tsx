@@ -94,8 +94,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-deep-brown dark:text-white mb-1">Address</h3>
                   <p className="text-warm-gray dark:text-gray-300">
-                    123 Spice Street, Food District<br />
-                    Mumbai, Maharashtra 400001
+                    No. 21, Food Street, Indiranagar<br />
+                    Bengaluru, Karnataka – 560038
                   </p>
                 </div>
               </div>
@@ -107,8 +107,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-deep-brown dark:text-white mb-1">Phone</h3>
                   <p className="text-warm-gray dark:text-gray-300">
-                    +91 98765 43210<br />
-                    +91 98765 43211
+                    +91 98765 43210
                   </p>
                 </div>
               </div>
@@ -120,8 +119,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-deep-brown dark:text-white mb-1">Email</h3>
                   <p className="text-warm-gray dark:text-gray-300">
-                    info@spicethali.com<br />
-                    orders@spicethali.com
+                    contact@spicethali.in<br />
+                    www.spicethali.in
                   </p>
                 </div>
               </div>
@@ -133,9 +132,8 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold text-deep-brown dark:text-white mb-1">Hours</h3>
                   <p className="text-warm-gray dark:text-gray-300">
-                    Mon-Thu: 11:00 AM - 10:00 PM<br />
-                    Fri-Sat: 11:00 AM - 11:00 PM<br />
-                    Sunday: 12:00 PM - 9:00 PM
+                    Mon-Fri: 11:00 AM - 10:30 PM<br />
+                    Sat-Sun: 9:00 AM - 11:00 PM
                   </p>
                 </div>
               </div>
